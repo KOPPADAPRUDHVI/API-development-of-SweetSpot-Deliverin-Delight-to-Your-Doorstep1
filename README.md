@@ -1,6 +1,6 @@
 # SweetSpot API
 
-Djando REST API for SweetSpot - Delivering Delight to Your Doorstep
+Django REST API for SweetSpot - Delivering Delight to Your Doorstep
 
 ## TODO :
 - [x] Streamlit UI Implementation
@@ -14,17 +14,15 @@ Djando REST API for SweetSpot - Delivering Delight to Your Doorstep
 
 ### Screenshots
 
-| Home | Cakes List | Login Page |
-|------|------------|------------|
-| ![Home]([static/screenshots/1_home.png](https://drive.google.com/file/d/1WN3dJQjIFJBj2s7uehpNdmhSO8Id1owY/view?usp=sharing)) | ![Cakes](static/screenshots/2_cakes.png) | ![Login](static/screenshots/3_login.png) |
+| Home Page | Cakes Collection | Cakes at Store | Login Page |
+|-----------|------------------|----------------|------------|
+| ![Home Page](screenshots/Home%20Page.png) | ![Cakes Collection](screenshots/Cakes%20Collection.png) | ![Cakes at Store](screenshots/Cakes%20at%20Store1.png) | ![Login](screenshots/Login.png) |
 
-|                   Registration Page                    | Profile Page | Cake Details |
-|:------------------------------------------------------:|:------------:|:------------:|
-| ![Registration](static/screenshots/9_registration.png) | ![Profile](static/screenshots/4_profile.png) | ![Cake Details](static/screenshots/5_cake_details.png) |
+| Stores Page | Profile Page | Customize Cake | Checkout Page |
+|-------------|-------------|----------------|--------------|
+| ![Stores](screenshots/Stores.png) | ![Profile](screenshots/Profile.png) | ![Customize](screenshots/Customize.png) | ![Checkout](screenshots/Checkout.png) |
 
-| Cake Customization | Cart Page |                   Checkout Page                    |
-|:------------------:|:---------:|:--------------------------------------------------:|
-| ![Cake Custom](static/screenshots/6_cake_custom.png) | ![Cart](static/screenshots/7_cart.png) | ![View Custom](static/screenshots/10_checkout.png) |
+> _All screenshots are directly rendered from the `/screenshots` folder in this repository._
 
 ### Prerequisites
 
@@ -34,34 +32,33 @@ Djando REST API for SweetSpot - Delivering Delight to Your Doorstep
 
 ### Local Setup
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
 ```bash
-git clone -b Avishkar-Patil https://github.com/Springboard-Internship-2024/API-development-of-SweetSpot-Deliverin-Delight-to-Your-Doorstep_oct_2024.git
+git clone -b Your repo
 cd API-development-of-SweetSpot-Deliverin-Delight-to-Your-Doorstep_oct_2024
 ```
 
-### 2. Create and Activate Virtual Environment
+#### 2. Create and Activate Virtual Environment
 
 For Linux/macOS:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
-
 For Windows:
 ```bash
 python3 -m venv venv
 venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+#### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Database and Email Configuration
+#### 4. Database and Email Configuration
 
 1. Install and start PostgreSQL server
 2. Create a new PostgreSQL database 
@@ -91,9 +88,7 @@ EMAIL_HOST_PASSWORD = #your generated password
 EMAIL_USE_SSL = False
 ```
 
-
-
-### 5. Run Migrations and create a super user
+#### 5. Run Migrations and create a super user
 
 ```bash
 python3 manage.py makemigrations
@@ -102,7 +97,7 @@ python manage.py createsuperuser
 ```
 Go to `http://localhost:8000/admin` for adding sample data (like cakes)
 
-### 6. Start Development Server
+#### 6. Start Development Server
 
 ```bash
 python3 manage.py runserver 
