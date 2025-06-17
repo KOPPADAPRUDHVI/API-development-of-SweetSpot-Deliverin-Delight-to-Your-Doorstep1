@@ -16,7 +16,7 @@ Djando REST API for SweetSpot - Delivering Delight to Your Doorstep
 
 | Home | Cakes List | Login Page |
 |------|------------|------------|
-| ![Home](static/screenshots/1_home.png) | ![Cakes](static/screenshots/2_cakes.png) | ![Login](static/screenshots/3_login.png) |
+| ![Home]([static/screenshots/1_home.png](https://drive.google.com/file/d/1WN3dJQjIFJBj2s7uehpNdmhSO8Id1owY/view?usp=sharing)) | ![Cakes](static/screenshots/2_cakes.png) | ![Login](static/screenshots/3_login.png) |
 
 |                   Registration Page                    | Profile Page | Cake Details |
 |:------------------------------------------------------:|:------------:|:------------:|
